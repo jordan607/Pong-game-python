@@ -18,7 +18,7 @@ class Scoreboard(Turtle):
         self.write(self.r_score, "center", font=("Courier", 80, "normal"))
 
     def score(self,p):
-        if p=="l":
+        if p == "l":
             self.l_score+=1
             self.clear()
             self.update_score()
